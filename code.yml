@@ -1,0 +1,4 @@
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt-get install curl -y
+sudo mkdir nirmal.txt sona.txt
