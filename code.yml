@@ -1,6 +1,8 @@
 
-sudo docker start busybox
-sudo docker start alpine
+sudo docker stop busybox
+sudo docker rm busybox
+sudo docker stop alpine
+sudo docker rm alpine
 
 
 
