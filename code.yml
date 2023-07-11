@@ -1,8 +1,3 @@
-
-sudo docker stop busybox
-sudo docker rm busybox
-sudo docker stop alpine
-sudo docker rm alpine
-sudo apt update -y
-
+sudo rmdir nirmal.txt
+sudo rmdir sona.txt
 
