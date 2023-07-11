@@ -1,10 +1,6 @@
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt-get install curl -y
-sudo docker servcie start
-sudo docker run -td --name alpine alpine /bin/bash
-sudo docker run -td --name nginx nginx /bin/bash
-sudo docker run -td --name busybox busybox /bin/bash
-sudo docker run -td --name python python /bin/bash
+
+sudo docker start busybox
+sudo docker start alpine
+
 
 
